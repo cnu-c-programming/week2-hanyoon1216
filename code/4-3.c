@@ -13,12 +13,11 @@ int main()
             break;
         }
     }
-    if(j == 1, a == 1){
+    if(j == 1 || a == 1){
         printf("false");
     }
     else
         printf("true");
 
-    
     return 0;
 }
